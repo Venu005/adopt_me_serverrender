@@ -1,0 +1,1 @@
+import{r as t,l as n,a}from"./index.efbdc0b9.js";const r=document.getElementById("modal"),l=({children:o})=>{const e=t.exports.useRef(null);return e.current||(e.current=document.createElement("div")),t.exports.useEffect(()=>(r.appendChild(e.current),()=>r.removeChild(e.current)),[]),n.exports.createPortal(a("div",{children:o}),e.current)};export{l as default};
